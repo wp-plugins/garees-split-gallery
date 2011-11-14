@@ -1,0 +1,164 @@
+/* CSS Document */
+#gareeMain {
+	margin-right:220px;
+}
+#gareeMain table {
+	border: 1px #ccc solid;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	margin-right:10px;
+}
+#gareeMain .form-table {
+	clear:none;
+}
+#gareeMain td, #gareeMain th {
+	padding:10px;
+}
+#gareeMain pre {
+	font-family: "Consolas", "Lucida Console", Monaco, monospace;
+	background-color:#eee;
+	padding: 10px;
+	margin: 10px;
+	border: 1px #ccc solid;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	display:block;
+	width:auto;
+	overflow:auto;	
+}
+#gareeMain ul {
+	margin-left: 20px;
+}
+#gareeMain dt {
+	float: left;
+	clear: left;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+	color: green;
+}
+#gareeMain dt:after {
+	content: ":";
+}
+#gareeMain dd {
+	margin: 0 0 0 110px;
+	padding: 0 0 0.5em 0;
+}
+#gareeMain .mustache_list dt {
+	font-family: "Consolas", "Lucida Console", Monaco, monospace;
+	width:200px;
+}
+#gareeMain .mustache_list dd {
+	margin: 0 0 0 210px;
+	padding: 0 0 0.5em 0;
+}
+#flattrDonate {
+	display: block;
+	background-image: url('images/flattr_donate_normal.png');
+	width: 56px;
+	height: 21px;
+	position: relative;
+	left:32px;
+}
+#flattrDonate:hover {
+	background-image: url('images/flattr_donate_hover.png');
+}
+#gareeBox {
+	float:right;
+	background-image:url('images/garee.png');
+	background-color:#fff;
+	padding-top: 120px;
+	padding-bottom:20px;
+	padding-left:5px;
+	padding-right:5px;
+	background-position:top center;
+	background-repeat:no-repeat;
+	margin:0px;
+	margin-top: 10px;
+	width:120px;
+	text-align:center;
+	border:solid 1px #ccc;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+#gareeBox .fb-like {
+	width:48px;
+}
+/* Tooltips from http://sixrevisions.com/css/css-only-tooltips/ */
+.tooltip {
+	border-bottom: 1px dotted #000000;
+	color: #000000;
+	outline: none;
+	cursor: help;
+	text-decoration: none;
+	position: relative;
+}
+.tooltip span {
+	margin-left: -999em;
+	position: absolute;
+}
+.tooltip:hover span {
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	position: absolute;
+	left: 1em;
+	top: 2em;
+	z-index: 99;
+	margin-left: 0;
+	width: 350px;
+}
+.tooltip:hover img {
+	border: 0;
+	margin: -10px 0 0 -55px;
+	float: left;
+	position: absolute;
+}
+.tooltip:hover em {
+	font-family: Candara, Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block;
+	padding: 0.2em 0 0.6em 0;
+}
+.classic {
+	padding: 0.8em 1em;
+}
+.custom {
+	padding: 0.5em 0.8em 0.8em 2em;
+}
+* html a:hover {
+	background: transparent;
+}
+.classic {
+	background: #FFFFAA;
+	border: 1px solid #FFAD33;
+}
+.critical {
+	background: #FFCCAA;
+	border: 1px solid #FF3334;
+}
+.help {
+	background: #9FDAEE;
+	border: 1px solid #2BB0D7;
+}
+.info {
+	background: #9FDAEE;
+	border: 1px solid #2BB0D7;
+}
+.warning {
+	background: #FFFFAA;
+	border: 1px solid #FFAD33;
+}
+.code {
+	white-space:pre;
+	width:auto !important;
+	font-family: "Consolas", "Lucida Console", Monaco, monospace !important;
+}
