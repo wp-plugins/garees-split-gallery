@@ -11,6 +11,9 @@ Easily split WordPress-galleries without any fancy css or js.
 == Description ==
 *Garee's Split Gallery* allows you to number the images to be shown (e.g. show='1-3′) and uses the native WordPress-gallery-shortcode to do the rest. Break your galleries apart - but don't insert hardcoded img-tags directly. In addition you are able to set default-values for the gallery-shortcode. E.g. if you'd like your gallery-items to link to the image-file directly, you can set that default in the settings-page and no longer need to insert `file="link"` into the shortcode.
 
+For more information check out the official [plugin-site](http://www.garee.ch/wordpress/garees-split-gallery/)
+
+
 Main-advantages:
 
 * easily split your galleries
