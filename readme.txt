@@ -3,7 +3,7 @@ Contributors: garee
 Donate link: https://flattr.com/donation/give/to/garee/
 Tags: image, random, picture
 Requires at least: 3.0.0
-Tested up to: 3.2.1
+Tested up to: 3.3
 Stable tag: trunk
 
 Easily split WordPress-galleries without any fancy css or js.
